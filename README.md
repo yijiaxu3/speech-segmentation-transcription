@@ -12,9 +12,9 @@
   					--child_outfile_textgrid=\
   					--child_segment_wav_outdir=\
   					--mom_segment_wav_outdir=\
-  					--add_seconds_at_boundary=
+  					--add_seconds_at_boundary=\
             
-            
+  (detailed info in docstring)            
 # Example result:
   (example input: MCRP_ID#3001_G1.wav and MCRP_ID#3001_G1.TextGrid, apply extract_session.py first to get the puzzle session audios) \
   \
@@ -22,6 +22,6 @@
   JSONData.json: json file of transcriptions by the program \
   text_whole: easy visualization of dialog between child and mom, transcribed by the program \
   child_audio_trans_by_eesen: transcription on audio recorded by mic on child using speech kitchen EESEN \
-  mom_audio_trans_by_eesen: transcription on audio recorded by mic on mom using speech kitchen EESEN \
+  mom_audio_trans_by_eesen: transcription on audio recorded by mic on mom using speech kitchen EESEN 
   
   
